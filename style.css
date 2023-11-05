@@ -1,0 +1,140 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poltawski Nowy";
+}
+
+/* NAVIGATION */
+.header,
+nav {
+    background-color: #73a376;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo-image {
+    width: 50%;
+    min-width: 260px;
+}
+
+.navigation {
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: underline;
+}
+
+/* MAIN */
+.promotion {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.pexels.com/photos/6609927/pexels-photo-6609927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    margin: 40px;
+    padding: 270px 20px 20px 40px;
+}
+
+.promotion-info {
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sale-heading {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.sale-info {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.buy-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: "Poltawski Nowy";
+    font-size: 18px;
+}
+
+.buy-btn:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: #000 solid 2px;
+}
+
+.collections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.collections-info {
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: #73a376;
+    max-width: 350px;
+}
+
+.collections img {
+    width: 100%;
+}
+
+.collections h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.collections p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #73a376;
+    padding: 40px 100px;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+footer img {
+    width: 20%;
+    min-width: 100px;
+}
+
+.copyright {
+    padding-top: 20px;
+    font-size: 18px;
+}
